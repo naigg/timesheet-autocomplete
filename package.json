@@ -1,0 +1,20 @@
+{
+  "name": "timesheet-auto-complete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/gianandres/timesheet-auto-complete.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/gianandres/timesheet-auto-complete#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

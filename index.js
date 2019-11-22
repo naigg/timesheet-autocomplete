@@ -17,6 +17,7 @@ if (config) {
   var taskId = config.taskId;
   var yearString = config.yearString;
   var monthString = config.monthString;
+  var listOfDatesToEnter = config.listOfDatesToEnter;
 
   function callback(error, response, body) {
     if (body) {
@@ -33,9 +34,6 @@ if (config) {
       }
     }
   }
-
-  // List down all the dates to add worklog on
-  var listOfDatesToEnter = [];
 
   listOfDatesToEnter.forEach(function(date) {
     var startDate = yearString + "-" + monthString + "-" + date;
